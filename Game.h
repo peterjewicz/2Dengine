@@ -2,6 +2,7 @@
 #define Game_h
 
 #include <SDL2/SDL.h>
+#include <SDL2_image/SDL_image.h>
 #include "./Entity.hpp"
 #include "./Component.hpp"
 #include "./EntityManager.hpp"

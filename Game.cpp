@@ -56,8 +56,13 @@ void Game::Initialize(int width, int height){
 void Game::LoadLevel(int levelNumber) {
   
   Entity& newEntity(manager.AddEntity("projectile"));
-  
   newEntity.AddComponent<TransformComponent>(0,0,20,20,32,32,1);
+  
+  Entity& newEntity2(manager.AddEntity("projectile2"));
+  newEntity2.AddComponent<TransformComponent>(40,40,20,20,32,32,1);
+  
+  Entity& newEntity3(manager.AddEntity("projectile3"));
+  newEntity3.AddComponent<TransformComponent>(80,80,20,20,32,32,1);
   
 }
 
